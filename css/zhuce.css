@@ -1,0 +1,157 @@
+body {
+	background: url(../img/bg4.jpg) no-repeat;
+	background-size: cover;
+	position:relative;
+}
+.row {
+	padding: 50px 0;
+	width: 100%;
+	background: rgba(255, 255, 255, 0.8);
+	
+}
+.picture {
+	position:absolute;
+	top: 50%;
+	margin-top: -90px;
+	left: 10%;
+}
+a {
+	color: #333;
+	text-decoration: none;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+}
+a:hover {
+	color: #df9f04;
+	text-decoration: none;
+	transition: all 0.2s;
+}
+.container {
+    position:fixed;top:50%;left:0;margin-top:-203px;
+	width: 100%;
+	padding:0;
+}
+.loginbox {
+	width: 350px;
+}
+
+.loginbox fieldset {
+	display: block;
+	width: 280px;
+	margin-left: 30px;
+}
+.loginbox fieldset>*{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+.loginbox .checkbox,
+.loginbox .text-warning {
+	margin-top:5px;
+	padding-top: 10px;
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.loginbox .text-error {
+	margin-top:5px;
+	font-size: 12px;
+	line-height: 1;
+	margin-bottom: 15px;
+	display: block;
+}
+
+form {
+	margin: 0 0 20px;
+}
+
+legend {
+	display: block;
+	width: 100%;
+	padding: 0;
+	padding-bottom: 15px;
+	font-size: 16px;
+	line-height: 1;
+	color: #333333;
+	border: 0;
+}
+
+.text-warning {
+	color: #c09853;
+}
+
+a.text-warning:hover {
+	color: #a47e3c;
+}
+
+.text-error {
+	color: #b94a48;
+}
+
+a.text-error:hover {
+	color: #953b39;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	height: 40px;
+	line-height: 40px;
+	margin-top:5px;
+	box-shadow:1px 1px 2px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	width: 280px;
+}
+
+
+@media (max-width: 767px) {
+	.container .content {
+		text-align: center;
+		margin: 0;
+	}
+	.ctbox {
+		overflow: hidden;
+		width: auto;
+		margin: 0 auto;
+		padding: 20px 0;
+	}
+	.loginbox {
+		float: none;
+		width: auto;
+		text-align: center;
+	}
+	.loginbox fieldset {
+		width: 280px;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.loginbox input[type="email"],
+	.loginbox input[type="password"] {
+		width: 280px;
+	}
+	.loginbox .checkbox,
+	.loginbox .text-warning {
+		padding-top: 10px;
+		font-size: 12px;
+		line-height: 22px;
+	}
+	.loginbox .text-error {
+		font-size: 12px;
+		line-height: 1;
+		margin-bottom: 15px;
+		display: block;
+	}
+	legend {
+		display: block;
+		width: auto;
+		padding: 0;
+		padding-bottom: 15px;
+		font-size: 12px;
+		line-height: 16px;
+		line-height: 1;
+		color: #333333;
+		border: 0;
+	}
+}

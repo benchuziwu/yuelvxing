@@ -1,0 +1,252 @@
+body {
+	background: #f6f6f6;
+}
+button{outline:0!important;}
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.container img:hover,
+.container img:focus {
+	opacity: 0.9;
+}
+
+.btn:active,
+.btn.active {
+	border: 0px solid #fff!important;
+}
+.btn-primary:focus{background:#F7C100!important;}
+
+/*顶部导航开始*/
+
+nav.navbar {
+	background: #fff!important;
+	font-size: 1.5em;
+	height: 65px;
+}
+
+nav.navbar a.img {
+	margin-bottom: 1em;
+	padding-bottom: 5px;
+}
+
+.navbar-nav li.active a {
+	background: #fff!important;
+	padding-bottom: 0;
+}
+
+.navbar-nav li a,
+.navbar-nav button {
+	line-height: 30px;
+}
+
+.btn-icon {
+	padding: 4px 14px;
+	margin: 12px 3px;
+}
+.btn:focus,.btn-primary:focus{border:1px solid #FCDA15;}
+.btn-primary {
+	background: #fcda15;
+	color: #333;
+	border: 1px solid #ccc;
+}
+
+.btn-primary:hover {
+	background: #fdc910!important;
+	color: #333;
+	border: 1px solid #ccc;
+}
+
+.navbar-default .navbar-nav > .open > a {
+	background: #fff!important;
+	height: 64px;
+}
+
+.dropdown-menu > li > a:hover {
+	background: #fcda15;
+}
+
+
+.navbar-collapse {
+	background: #fff;
+}
+
+
+/*顶部导航结束*/
+
+
+/*图片轮播开始*/
+
+.carousel-indicators .active {
+	background: #fdc910;
+}
+
+.carousel-inner .item {
+	width: 100%;
+	height: 450px;
+}
+
+.carousel-inner .item img {
+	width: 100%;
+	height: 100%;
+}
+
+
+/*图片轮播结束*/
+
+
+/*最新发表开始*/
+
+.col-md-8 h4 {
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding: 10px 0;
+}
+
+.col-md-8 a {
+	text-decoration: none;
+	color: #666;
+}
+
+.fabiao .col-md-6{padding:0 10px;}
+.fabiao  .col-md-6 .picture {
+	background: #fff;
+	padding:10px!important;
+	border: 1px solid #ccc;
+}
+
+.fabiao  .col-md-6 .picture small {
+	color: #999;
+}
+
+.fabiao  .col-md-6 .picture h3:hover {
+	color: #fcda15;
+	text-decoration: underline;
+}
+
+.fabiao .col-md-6 {
+	margin-bottom: 25px;
+}
+
+.col-md-3 .item,
+.col-md-8 .item {
+	margin-top: 40px;
+}
+
+.col-md-3 .item h4,
+.col-md-8 .item h4 {
+	color: #333!important;
+}
+
+.col-md-3 .item img {
+	border-radius: 5px;
+}
+
+.fabiao .item {
+	width: 100%;
+}
+
+.fabiao .item img {
+	width: 100%;
+}
+
+
+/*最新发表结束*/
+
+
+/*主题栏目开始*/
+
+.list-theme {
+	position: relative;
+	width: 100%;
+}
+
+.list-theme .caption {
+	position: absolute;
+	bottom: 25px;
+	background: rgba(255, 255, 255, 0.6);
+	left: 0;
+	width: 100%;
+}
+
+.thumbnail {
+	padding: 0;
+}
+
+.fabiao {
+	width: 100%;
+}
+
+.upload {
+	position: relative;width:100%;
+	height:40px;
+}
+
+.upload button{
+	position:absolute;
+	top:0;
+	left:50%;
+	margin-left:-50px;
+	width:100px;
+	height: 40px;
+	background: #fdc910;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;
+}
+
+
+/*主题栏目结束*/
+
+
+/*侧边栏内开始*/
+
+.cebian {
+	margin-left: 30px;
+}
+
+.cebianlan {
+	margin-top: 30px;
+	border: 1px solid #ccc;
+	padding: 10px;
+	background: #fff;
+}
+
+.cebianlan p {
+	height: 30px;
+}
+
+
+/*侧边栏结束*/
+
+
+/*分页开始*/
+
+.pagination {
+	margin-left: 35%;
+	color: 333;
+}
+
+
+/*分页结束*/
+
+
+/*尾部开始*/
+
+.footer {
+	margin: 30px 0;
+}
+
+.footer a {
+	color: #666;
+}
+
+
+/*尾部结束*/
+
+#weixin {
+	padding: 0;
+	margin: 0;
+}
+

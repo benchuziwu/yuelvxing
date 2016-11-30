@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录 - 悦旅行</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<meta name="X-UA-Compatible" content="IE-edge" />
+		<meta name="renderer" content="webkit" />
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+		<!--[if lt IE 9]>
+		 	//兼容IE5 以下的浏览器支持HTML5
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      //兼容IE8支持响应式
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		<link rel="stylesheet" type="text/css" href="css/zhuce.css" />
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 text-center visible-xs">
+					<img src="img/logo.png" />
+				</div>
+				<div class="col-sm-6 picture text-center visible-lg visible-md">
+					<img src="img/logo.png" /><br /><br />
+					<img src="img/slogen.png" />
+				</div>
+				<div class="col-sm-3 col-lg-offset-6 loginbox">
+					<form id="reg-form" action="/account/register/" method="post">
+						<fieldset>
+							<legend>注册<span class="otherway">已有帐号？ <a href="/account/login/"  class="text-warning" title="立即登录悦旅行">立即登录»</a></span></legend>
+							<input id="name" name="name" value="" type="text" placeholder="昵称" data-valid="name">
+							<span id="name-tip" class="muted" style="display:none">数字、字母、中文 2-30个字符</span>
+							<span id="name-error" class="text-error" style="display:none">格式不正确</span>
+							<input id="mail" name="mail" value="" type="email" placeholder="邮箱" data-valid="mail">
+							<span id="mail-tip" class="muted" style="display:none">用来登录悦旅行，接收到激活邮件才能使用更多功能</span>
+							<span id="mail-error" class="text-error" style="display:none">请输入正确的邮箱</span>
+							<input id="passwd" name="passwd" value="" type="password" placeholder="密码" data-valid="passwd">
+
+							<span id="passwd-tip" class="muted" style="display:none">至少包含字母和数字，最短8个字符，区分大小写</span>
+							<span id="passwd-error" class="text-error" style="display:none">至少包含字母和数字，最短8个字符，区分大小写</span>
+							<div class="clearfix">
+
+								<label class="checkbox pull-left">
+                		<input id="read" name="read" type="checkbox"> 同意悦旅行<a href="/post/5011/" title="阅读悦旅行《使用协议》">《使用协议》</a>
+                	</label>
+								<button id="submit" type="submit" class="btn btn-primary pull-right" tabindex="4" disabled>注册</button>
+							</div>
+						</fieldset>
+					</form>
+					<div class="openid text-center">
+						<p class="muted">使用合作帐号快速登录</p>
+						<div class="opennav">
+							<a><i class="openid"></i>新浪微博</a>
+							<a><i class="openid"></i>QQ</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<script src="js/jquery-1.12.4.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/zhuce.js"></script>
+	</body>
+
+</html>
