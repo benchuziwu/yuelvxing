@@ -19,13 +19,12 @@ a {
 	color: #333;
 	text-decoration: none;
 	-webkit-transition: all 0.2s;
-	-moz-transition: all 0.2s;
-	-o-transition: all 0.2s;
 	transition: all 0.2s;
 }
 a:hover {
 	color: #df9f04;
 	text-decoration: none;
+	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
 .container {
